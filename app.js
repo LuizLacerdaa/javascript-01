@@ -1,7 +1,7 @@
 let nomeCompleto = ("")
 nomeCompleto = prompt("informe seu nome completo:")
 
-/*
+
 
 function fnTrocarCorDeFundo(){
 
@@ -37,4 +37,3 @@ function fnTrocarCorDeFundo(){
 
 fnTrocarCorDeFundo() 
 
-*/

@@ -11,7 +11,15 @@
 
 <body>
     <main>
-        <h1 class="titulos">CONFEITARIA DO LACERDA</h1>
+        <h1 class="titulos" id="titulo">CONFEITARIA DO LACERDA</h1>
+        <div class="botoes">
+            <button type="button" onclick="fnTrocarCorDeFundo()">Trocar cor de fundo</button>
+            <button type="button" onclick="fnSaudacao()">Saudação</button>
+            <button type="button" onclick="fnMostrarHoraAtual()">Mostrar a HORA</button>
+            <button type="button" onclick="fnTrocarTitulo()">Trocar Titulo</button>
+
+
+        </div>
         <header class="cabecalho">
             <div class="menu-link">
                 <a href="#" class="link">Home</a>
@@ -38,13 +46,23 @@
             <img src="imagens/torta.jpg" alt="Torta" class="imagens-produtos">
         </div>
 
-        <div class="base-form">
-            <h3>CONTATO</h3>
-            <form action="nome">
-                <p>Nome</p>
-                <Input></INput>
+        <div class="campo-formulario">
+            <form class="formulario">
+                <p class="titulo-form">Nome</p>
+                <input type="text" placeholder="Digite seu nome" class="campo-form">
+            </form>
+
+            <form class="formulario">
+                <p class="titulo-form">Email</p>
+                <input type="text" placeholder="Digite seu email" class="campo-form">
+            </form>
+
+            <form class="formulario">
+                <p class="titulo-form">Mensagem</p>
+                <input type="text" placeholder="Escreva uma mensagem" class="campo-form-mensagem">
             </form>
         </div>
+
     </main>
     <script src="app.js"></script>
 </body>

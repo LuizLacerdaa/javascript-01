@@ -1,9 +1,12 @@
-let nomeCompleto = ("")
-nomeCompleto = prompt("informe seu nome completo:")
+function fnSaudacao() {
+
+    let nomeCompleto = ("")
+    nomeCompleto = prompt("informe seu nome completo:")
+    alert ("Seja bem vindo (a) " + nomeCompleto + " ao meu site")
+}
 
 
-
-function fnTrocarCorDeFundo(){
+function fnTrocarCorDeFundo() {
 
     let cor = prompt("Informe uma cor: \n 1-azul \n 2-Vermelho \n 3-preto \n 4-Verde \n 5-Rosa \n 6-Laranja")
     let corDeFundo = null
@@ -27,13 +30,25 @@ function fnTrocarCorDeFundo(){
         corDeFundo = "orange"
     }
     else {
-        corDeFundo = "yellow"
+        corDeFundo = "antiquewhite"
     }
 
     document.body.style.backgroundColor = corDeFundo
 
 }
 
+function fnMostrarHoraAtual(){
+    const agora = new Date ()
+    const horas = agora.getHours ()
+    const minutos = agora.getMinutes()
+    const segundos = agora.getSeconds ()
 
-fnTrocarCorDeFundo() 
+    alert (`Hora atual: ${horas}:${minutos}:${segundos} `)
+    
+}
 
+function fnTrocarTitulo(){
+    let nome = ("")
+    nome = prompt("Qual titulo você deseja colocar?")
+    document.getElementById ("titulo").innerText= nome
+}

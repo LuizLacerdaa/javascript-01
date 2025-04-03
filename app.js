@@ -52,3 +52,21 @@ function fnTrocarTitulo(){
     nome = prompt("Qual titulo você deseja colocar?")
     document.getElementById ("titulo").innerText= nome
 }
+
+function fnIdiomaPortugues(){
+    document.getElementById("menu1").innerText = "INICIAL"
+    document.getElementById("menu2").innerText = "SERVIÇOS"
+    document.getElementById("menu3").innerText = "CONTATO"
+}
+
+function fnIdiomaIngles(){
+    document.getElementById("menu1").innerText = "HOME"
+    document.getElementById("menu2").innerText = "SERVICES"
+    document.getElementById("menu3").innerText = "CONTACT"  
+}
+
+function fnIdiomaEspanhol(){
+    document.getElementById("menu1").innerText = "HOGAR"
+    document.getElementById("menu2").innerText = "SERVICIOS"
+    document.getElementById("menu3").innerText = "CONTACTO"  
+}

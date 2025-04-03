@@ -82,3 +82,12 @@ function fnBanner2(){
 function fnBanner3(){
     document.getElementById ("banner").src="imagens/banner3.jpg"
 }
+
+function fnDestaque1Trocar(){
+    document.getElementById ("Destaque1").src="imagens/bolo2.jpg"
+}
+
+function fnDestaqueOriginal(){
+    document.getElementById ("Destaque1").src="imagens/bolo.jpg"
+}
+

@@ -70,3 +70,15 @@ function fnIdiomaEspanhol(){
     document.getElementById("menu2").innerText = "SERVICIOS"
     document.getElementById("menu3").innerText = "CONTACTO"  
 }
+
+function fnBanner1(){
+    document.getElementById ("banner").src="imagens/fundo.jpg"
+}
+
+function fnBanner2(){
+    document.getElementById ("banner").src="imagens/banner2.jpg"
+}
+
+function fnBanner3(){
+    document.getElementById ("banner").src="imagens/banner3.jpg"
+}

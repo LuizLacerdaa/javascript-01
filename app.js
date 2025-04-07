@@ -83,11 +83,24 @@ function fnBanner3(){
     document.getElementById ("banner").src="imagens/banner3.jpg"
 }
 
-function fnDestaque1Trocar(){
-    document.getElementById ("Destaque1").src="imagens/bolo2.jpg"
+function fnTrocarImagem1(){
+    document.getElementById("imagem1").src="imagens/bolo2.jpg"
 }
-
-function fnDestaqueOriginal(){
-    document.getElementById ("Destaque1").src="imagens/bolo.jpg"
+function fnVoltarImagem1(){
+    document.getElementById("imagem1").src="imagens/bolo.jpg"
+}  
+ 
+function fnTrocarImagem2(){
+    document.getElementById("imagem2").src="imagens/bolo2.jpg"
 }
-
+function fnVoltarImagem2(){
+    document.getElementById("imagem2").src="imagens/pudim.jpg"
+}  
+ 
+function fnTrocarImagem3(){
+    document.getElementById("imagem3").src="imagens/bolo2.jpg"
+}
+function fnVoltarImagem3(){
+    document.getElementById("imagem3").src="imagens/torta.jpg"
+}  
+ 

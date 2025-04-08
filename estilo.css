@@ -159,6 +159,7 @@ main{
     border-radius: 5px;
     width: 400px;
     background-color: #181C14;
+    color: white;
 }
 .campo-form::placeholder {
     color: #f2c22d;
@@ -180,6 +181,7 @@ main{
     width: 400px;
     height: 200px;
     background-color: #181C14;
+    color: white;
 }
 .campo-form-mensagem::placeholder {
     color: #f2c22d;
